@@ -5,6 +5,7 @@
   "description": "Information about Blade Nano S3 RC helicopter",
   "author": {
     "name": "Mike Aizatsky",
-    "email": "mike.aizatsky+s3@gmail.com"
+    "email": "mike.aizatsky+s3@gmail.com",
+    "url": "https://example.com/about-me/"
   }
 }
