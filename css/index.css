@@ -16,21 +16,22 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
   background-color: var(--white);
+  width: 1024px;
 }
 p:last-child {
   margin-bottom: 0;
 }
 p,
-.tmpl-post li,
+li,
 img {
   max-width: 37.5em; /* 600px /16 */
 }
 p,
-.tmpl-post li {
+li {
   line-height: 1.45;
 }
 a[href] {

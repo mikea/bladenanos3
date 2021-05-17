@@ -1,10 +1,10 @@
 ---
-layout: layouts/post.njk
-title: About Me
-templateClass: tmpl-post
+layout: layouts/page.njk
+title: About
+templateClass: tmpl-page
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 3
 ---
 
-I am a person that writes stuff.
+This site is my set of notes on learning to fly Blade Nano S3 RC helicopter.
