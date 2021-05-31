@@ -33,13 +33,7 @@ templateClass: tmpl-home
 
 ## Aftermarket Upgrades
 
-[Microheli Triple Blades Perfomance Package](s3/microheli_performance)
-
-https://www.microheli.com/helicopters-1236554668/heli-upgrades/e-flite/blade-nano-s3
-
-https://www.rakonheli.com/collections/blade-nano-s3
-
-https://www.rcgroups.com/forums/showthread.php?3315659-Upgrading-a-Blade-Nano-S2-to-brushless
+[Review: Microheli Triple Blades Perfomance Package](s3/microheli_performance)
 
 ## Radio Setup & Binding
 
