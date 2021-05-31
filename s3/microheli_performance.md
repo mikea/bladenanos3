@@ -6,6 +6,10 @@ layout: layouts/page.njk
 
 https://www.microheli.com/helicopters-1236554668/heli-upgrades/e-flite/blade-nano-s3/cnc-triple-blades-performance-package-red-blade-nano-s2.html
 
+## Photos
+
+![Assembled Heli](/img/microheli_assembled.jpg)
+
 ## Ordering
 
 Microheli experience starts right out of the order: you get e-mail saying that the package you ordered is out of stock and you’ll get it in 10 days (promise!) instead of promised 3. I contacted Microheli after 12 days of silence. Only then they shipped. 15 days total.
