@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-This site is my set of notes on learning to fly Blade Nano S3 RC helicopter.
+This site is my set of notes on learning to fly, maintain and fix Blade Nano S3 RC helicopter.
