@@ -1,21 +1,11 @@
 {
   "title": "Blade Nano S3 Notes",
-  "url": "https://example.com/",
+  "url": "https://rcheli.info/",
   "language": "en",
-  "description": "Information about Blade Nano S3 RC helicopter",
-  "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
-    "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "id": "https://example.com/"
-  },
-  "jsonfeed": {
-    "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
-  },
+  "description": "Notes about RC helis and Blade Nano S3 in particular",
   "author": {
     "name": "Mike A",
     "email": "mike.aizatsky+s3@gmail.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://rcheli.info/about/"
   }
 }
