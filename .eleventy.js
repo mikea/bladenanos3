@@ -6,28 +6,28 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const Image = require("@11ty/eleventy-img");
 
-module.exports = function(eleventyConfig) {
+module.exports = function(config) {
   // Add plugins
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
-  eleventyConfig.addPlugin(pluginNavigation);
+  config.addPlugin(pluginSyntaxHighlight);
+  config.addPlugin(pluginNavigation);
 
   // https://www.11ty.dev/docs/data-deep-merge/
-  eleventyConfig.setDataDeepMerge(true);
+  config.setDataDeepMerge(true);
 
   // Alias `layout: post` to `layout: layouts/post.njk`
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  config.addLayoutAlias("post", "layouts/post.njk");
 
-  eleventyConfig.addFilter("readableDate", dateObj => {
+  config.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+  config.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
 
   // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter("head", (array, n) => {
+  config.addFilter("head", (array, n) => {
     if( n < 0 ) {
       return array.slice(n);
     }
@@ -36,17 +36,17 @@ module.exports = function(eleventyConfig) {
   });
 
   // Return the smallest number argument
-  eleventyConfig.addFilter("min", (...numbers) => {
+  config.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
   });
 
-  eleventyConfig.addFilter("filterTagList", tags => {
+  config.addFilter("filterTagList", tags => {
     // should match the list in tags.njk
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
   })
 
   // Create an array of all tags
-  eleventyConfig.addCollection("tagList", function(collection) {
+  config.addCollection("tagList", function(collection) {
     let tagSet = new Set();
     collection.getAll().forEach(item => {
       (item.data.tags || []).forEach(tag => tagSet.add(tag));
@@ -56,8 +56,10 @@ module.exports = function(eleventyConfig) {
   });
 
   // Copy the `img` and `css` folders to the output
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
+  config.addPassthroughCopy("img");
+  // eleventyConfig.addPassthroughCopy("css");
+  config.addTransform('postcss', require('./lib/transforms/postcss'));
+  config.addWatchTarget('./scss/');
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
@@ -69,10 +71,10 @@ module.exports = function(eleventyConfig) {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
-  eleventyConfig.setLibrary("md", markdownLibrary);
+  config.setLibrary("md", markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)
-  eleventyConfig.setBrowserSyncConfig({
+  config.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
         const content_404 = fs.readFileSync('_site/404.html');
