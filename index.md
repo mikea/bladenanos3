@@ -12,7 +12,7 @@ templateClass: tmpl-home
 
 - [Batteries](/s3/batteries/)
 - [Setup and Bind](/s3/setup/)
-- [Standard Parts with Weight](/s3/parts/)
+- [Original Replacement Parts](/s3/parts/)
 
 ## Aftermarket Upgrades
 
