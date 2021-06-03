@@ -34,6 +34,7 @@ templateClass: tmpl-home
 ## Aftermarket Upgrades
 
 [Review: Microheli Triple Blades Perfomance Package](s3/microheli_performance)
+[RKH Swashplate](s3/rkh_swashplate)
 
 ## Radio Setup & Binding
 
