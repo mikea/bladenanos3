@@ -6,7 +6,7 @@ layout: layouts/page.njk
 
 https://www.microheli.com/helicopters-1236554668/heli-upgrades/e-flite/blade-nano-s3/cnc-triple-blades-performance-package-red-blade-nano-s2.html
 
-## Photos
+## Assembled Photos
 
 ![Assembled Heli](/img/microheli_assembled.jpg)
 
