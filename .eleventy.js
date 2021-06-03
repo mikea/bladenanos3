@@ -57,9 +57,7 @@ module.exports = function(config) {
 
   // Copy the `img` and `css` folders to the output
   config.addPassthroughCopy("img");
-  // eleventyConfig.addPassthroughCopy("css");
-  config.addTransform('postcss', require('./lib/transforms/postcss'));
-  config.addWatchTarget('./scss/');
+  config.addPassthroughCopy("css");
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
