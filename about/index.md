@@ -8,3 +8,4 @@ eleventyNavigation:
 ---
 
 This site is my set of notes on learning to fly, maintain and fix Blade Nano S3 RC helicopter.
+You can contact me at {{ metadata.author.email }}
