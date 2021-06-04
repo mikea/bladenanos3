@@ -21,8 +21,8 @@ This is my first (and only so far) heli. I fly it with Spektrum DX6e transmitter
 
 ## Aftermarket Upgrades
 
-- [Review: Microheli Triple Blades Perfomance Package](s3/microheli_performance)
-- [RKH Swashplate](s3/rkh_swashplate)
+- [Review: Microheli Triple Blades Perfomance Package](/s3/microheli_performance)
+- [RKH Swashplate](/s3/rkh_swashplate)
 
 ## Measurements
 

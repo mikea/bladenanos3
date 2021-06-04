@@ -24,8 +24,6 @@ https://www.helifreak.com/showthread.php?t=826717
 
 Easiest way to control altitude is to soften your 3D throttle curve. Instead of a constant 100% throttle curve, use something like 100-90-75-90-100.
 
-
-
 ## Calibrating
 
 To calibrate the Blade Nano S3:

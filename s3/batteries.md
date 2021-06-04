@@ -6,7 +6,6 @@ layout: layouts/page.njk
 
 I tried few batteries for my nano. I currently fly Glacier 220mAh.
 
-
 |Manufacturer|Cap|Weight|Dimensions, mm|Approx. Hover Time, min|
 |----|-----|----|-----|-----|
 |E-flite|150mAh|4.54g|5.5x11x41|4|
