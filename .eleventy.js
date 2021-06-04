@@ -61,8 +61,8 @@ module.exports = function(eleventyConfig) {
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
-    html: true,
-    breaks: true,
+    html: false,
+    breaks: false,
     linkify: true
   }).use(markdownItAnchor, {
   });
