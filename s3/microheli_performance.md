@@ -12,7 +12,7 @@ https://www.microheli.com/helicopters-1236554668/heli-upgrades/e-flite/blade-nan
 
 ## Ordering
 
-Microheli experience starts right out of the order: you get e-mail saying that the package you ordered is out of stock and you’ll get it in 10 days (promise!) instead of promised 3. I contacted Microheli after 12 days of silence. Only then they shipped. 15 days total.
+Microheli experience starts right from ordering: you get an e-mail saying that the package you ordered is out of stock and you’ll get it in 10 days (promise!) instead of promised 3. I contacted Microheli after 12 days of silence. Only then they shipped. 15 days total.
 
 ## Documentation
 
